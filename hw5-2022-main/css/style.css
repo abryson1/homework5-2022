@@ -163,13 +163,9 @@ View the print view from Firefox on regular sized paper in Portrait mode.*/
 Edit the nav/nav_links elements so that they are spaced according to the image above. */
     nav, .nav_links {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
-
-    /* .nav_links li {
-        margin: 0 33.33% ;
-    } */
-
 
 
 /* 
