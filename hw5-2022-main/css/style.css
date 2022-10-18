@@ -133,8 +133,6 @@ Edit the css for the header tag (all instances) and the nav_links class to match
     .card{
         flex-direction: column;
         flex-basis: 275px;
-
-
     }
 }
 
@@ -161,17 +159,19 @@ View the print view from Firefox on regular sized paper in Portrait mode.*/
         background-image: none;
     }
 
-
 /* 
 Edit the nav/nav_links elements so that they are spaced according to the image above. */
-    .nav_links, nav {
+    nav, .nav_links {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    nav ul{
+    /* .nav_links li {
+        margin: 0 33.33% ;
+    } */
 
-    }
+
+
 /* 
 Edit the pricing class so that the elements align along the bottom.  As long as it aligns along the bottom we don't care if the cards aren't the same height. */
     .pricing{
